@@ -211,7 +211,7 @@ const OSPFVisualizer = () => {
     if (selectedNodes.length === 2) {
       const path = findShortestPath(selectedNodes[0], selectedNodes[1]);
       setShortestPath(path);
-
+      console.log(shortestPathNodes)
       // Identify highlighted edges based on the shortest path
       const edgesToHighlight = [];
       const nodesInPath = [];
