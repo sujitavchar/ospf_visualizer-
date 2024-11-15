@@ -1,0 +1,36 @@
+.custom-button {
+    background-color: #FF6500; /* Button background color */
+    color: #080707; /* Inner text color */
+    height: 56px;
+    width: 229px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #FF6500; /* Darker shade on hover */
+    color: #FFFFFF; /* Change text color slightly on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.custom-button:active {
+    background-color: #ff6a07; /* Even darker shade when clicked */
+    transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+@media (max-width: 768px) {
+    .custom-button {
+        background-color: #FF6500; /* Button background color */
+        color: #000000; /* Inner text color */
+        height: 55px;
+        width: 242px;
+        
+    }
+  
+ 
+  }
